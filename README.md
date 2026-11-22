@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestor de tareas — Taller de debugging y testing (Expo SDK 57)
 
 Proyecto **independiente** de React Native + Expo Router + TypeScript para 3.º año. Contiene defectos **intencionales** que permiten enseñar diagnóstico, debugging, pruebas y documentación. No necesita backend: el servicio de tareas es simulado.
@@ -66,3 +67,6 @@ Diseñado para SDK 57 / React Native 0.86 / React 19.2.3. `npx expo install --fi
 
 
 
+=======
+# frontend_gestor_edi
+>>>>>>> 21048cb65166f9e420f20a23193c203c6d59fa19
