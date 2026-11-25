@@ -3,8 +3,8 @@ import { router } from 'expo-router';
 
 export default function Index() {
   useEffect(() => {
-    router.replace('/login');
+    router.replace('/home');
   }, []);
 
   return null;
-}
+} 

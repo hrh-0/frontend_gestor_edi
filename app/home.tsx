@@ -50,7 +50,7 @@ export default function HomeScreen() {
             <Text style={styles.title}>Panel principal</Text>
             <Text style={styles.subtitle}>Elegí un módulo para comenzar</Text>
           </View>
-          <Pressable onPress={() => router.replace('/login')} style={styles.logoutBtn}>
+          <Pressable onPress={() => router.replace('/')} style={styles.logoutBtn}>
             <Text style={styles.logout}>Salir</Text>
           </Pressable>
         </View>

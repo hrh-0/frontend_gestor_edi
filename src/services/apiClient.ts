@@ -1,4 +1,4 @@
-export const API_URL = 'https://tu-api.ejemplo.com';
+export const API_URL = 'https://api.montenegroariel.com.ar'; //api de ejemplo
 
 export class ApiError extends Error {
   status: number;

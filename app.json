@@ -1,13 +1,23 @@
 {
   "expo": {
-    "name": "AtMusic · Gestor de tareas de Instrumentos Musicales y Audio",
+    "name": "AtMusic · Gestor de tareas",
     "slug": "gestor-tareas-taller",
     "scheme": "gestortareas",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./logo.png",
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
     ],
     "android": {
       "package": "com.instituto.gestortareastaller"
@@ -17,6 +27,12 @@
     },
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a8f61ce8-933b-4089-93ca-b1efaeeb7f90"
+      }
     }
   }
 }
